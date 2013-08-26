@@ -1,0 +1,121 @@
+section {
+  float: left;
+  margin-top: .5em;
+  margin-left: .5em;
+  padding: 1em;
+  width: 20em;
+  height: auto;
+  background-color: #87CA63;
+  color: #444;
+}
+
+section .title {
+  color: inherit;
+  font-size: 2em;
+}
+
+section .author {
+  color: inherit;
+}
+
+section .author a {
+  color: inherit;
+}
+
+section .author:hover a {
+  text-decoration: underline;
+}
+
+section pre {
+  overflow: hidden;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 12em;
+  background-color: #cde9bd;
+  box-shadow: 0 0 0 .6em #cde9bd;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1em;
+  font-family: 'Source Code Pro',monospace,serif;
+}
+
+section .preprocessor {
+  position: absolute;
+  margin-top: 11.1em;
+  margin-left: 15.4em;
+  background-color: #ccc;
+  box-shadow: 0 0 0 .4em #ccc;
+  color: #cde9bd;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+section .stylus {
+  margin-left: 14.6em;
+  background-color: #a1bc06;
+  box-shadow: 0 0 0 .4em #a1bc06;
+}
+
+section .less {
+  background-color: #6bc;
+  box-shadow: 0 0 0 .4em #6bc;
+}
+
+section .sass,
+section .scss {
+  background-color: #ce4dd6;
+  box-shadow: 0 0 0 .4em #ce4dd6;
+}
+
+section .more {
+  margin-top: 1.5em;
+}
+
+section .tags {
+  float: left;
+}
+
+section .tags a {
+  margin-right: .3em;
+  padding: .25em .6em;
+  border-radius: .25em;
+  background-color: #444;
+  color: #87CA63;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 75%;
+}
+
+section .tags a:hover {
+  background-color: rgba(68,68,68,0.9);
+}
+
+section .info {
+  float: right;
+}
+
+section .info a {
+  color: inherit;
+}
+
+section .info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 664px) {
+  section {
+    margin-top: .5em;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  section .preprocessor {
+    position: absolute;
+    right: 0;
+    margin-top: 11.1em;
+    margin-right: 1.8em;
+  }
+}
